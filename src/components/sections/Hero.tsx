@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight">
-              Mazaya <span className="text-primary">Ambulance</span>
+              Zahi'ah <span className="text-primary">Ambulance</span>
             </h1>
 
             <p className="text-xl md:text-2xl font-semibold text-slate-800 leading-relaxed">

@@ -15,7 +15,7 @@ const Footer = () => {
                 <Ambulance className="h-6 w-6 text-white" />
               </div>
               <span className="text-2xl font-bold tracking-tight">
-                Mazaya <span className="text-primary">Ambulance</span>
+                Zahi'ah <span className="text-primary">Ambulance</span>
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed text-lg">

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const FloatingWhatsApp = () => {
   const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp Mazaya Ambulance yang asli
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Halo Mazaya Ambulance, saya butuh layanan ambulance segera.")}`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Halo Zahi'ah Ambulance, saya ingin memesan layanan ambulance. Mohon informasinya.")}`;
 
   return (
     <motion.a

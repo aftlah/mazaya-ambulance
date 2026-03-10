@@ -6,7 +6,7 @@ const CaraPemesanan = () => {
     {
       icon: <PhoneCall className="h-10 w-10" />,
       title: "Hubungi Kami",
-      description: "Segera hubungi tim Mazaya Ambulance melalui WhatsApp atau Telepon yang tersedia 24 jam.",
+      description: "Segera hubungi tim Zahi'ah Ambulance melalui WhatsApp atau Telepon yang tersedia 24 jam.",
     },
     {
       icon: <MapPin className="h-10 w-10" />,

@@ -72,7 +72,7 @@ const Navbar = () => {
               <Phone className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight text-slate-900">
-              Mazaya <span className="text-primary">Ambulance</span>
+              Zahi'ah <span className="text-primary">Ambulance</span>
             </span>
           </a>
 

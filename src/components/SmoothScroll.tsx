@@ -22,7 +22,8 @@ export const SmoothScroll = ({ children }: SmoothScrollProps) => {
       infinite: false,
     });
 
-    setLenisInstance(lenis);
+    // Defer state update to avoid cascading renders
+    queueMicrotask(() => setLenisInstance(lenis));
 
     function raf(time: number) {
       lenis.raf(time);

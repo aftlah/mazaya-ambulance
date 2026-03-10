@@ -35,7 +35,7 @@ const Keunggulan = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 mb-6">
-            Mengapa Memilih Mazaya <span className="text-primary">Ambulance</span>?
+            Mengapa Memilih Zahi'ah <span className="text-primary">Ambulance</span>?
           </h2>
           <p className="text-lg text-slate-600">
             Kami berkomitmen memberikan pelayanan terbaik demi keselamatan dan kenyamanan setiap pasien.

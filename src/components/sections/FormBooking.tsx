@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -29,8 +28,8 @@ const FormBooking = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp Mazaya Ambulance yang asli
-    const message = `Halo Mazaya Ambulance, saya ingin memesan ambulance.
+    const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp Zahi'ah Ambulance yang asli
+    const message = `Halo Zahi'ah Ambulance, saya ingin memesan ambulance.
 
 Nama: ${formData.nama}
 Telepon: ${formData.telepon}
@@ -189,10 +188,10 @@ Jenis Layanan: ${formData.layanan}`;
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-2xl py-8 text-xl group shadow-xl shadow-primary/20"
+                    className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-2xl py-6 text-base group shadow-xl shadow-primary/20 "
                   >
-                    <MessageSquareShare className="mr-2 h-6 w-6" />
-                    Pesan Ambulance Lewat WhatsApp
+                    <MessageSquareShare className="mr-2 h-5 w-5" />
+                    Pesan Ambulance
                   </Button>
                 </form>
               </CardContent>

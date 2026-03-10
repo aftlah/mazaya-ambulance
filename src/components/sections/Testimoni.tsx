@@ -35,7 +35,7 @@ const Testimoni = () => {
             Apa Kata <span className="text-primary">Mereka</span>?
           </h2>
           <p className="text-lg text-slate-600">
-            Kepercayaan Anda adalah prioritas kami. Berikut adalah pengalaman pelanggan yang telah menggunakan layanan Mazaya Ambulance.
+            Kepercayaan Anda adalah prioritas kami. Berikut adalah pengalaman pelanggan yang telah menggunakan layanan Zahi'ah Ambulance.
           </p>
         </div>
 
