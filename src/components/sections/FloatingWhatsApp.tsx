@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const FloatingWhatsApp = () => {
-  const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp Mazaya Ambulance yang asli
+  const WHATSAPP_NUMBER = "6282261108591"; // Nomor WhatsApp Zahi'ah Ambulance
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Halo Zahi'ah Ambulance, saya ingin memesan layanan ambulance. Mohon informasinya.")}`;
 
   return (

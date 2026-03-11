@@ -28,7 +28,7 @@ const FormBooking = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp Zahi'ah Ambulance yang asli
+    const WHATSAPP_NUMBER = "6282261108591"; // Nomor WhatsApp Zahi'ah Ambulance
     const message = `Halo Zahi'ah Ambulance, saya ingin memesan ambulance.
 
 Nama: ${formData.nama}
@@ -45,21 +45,25 @@ Jenis Layanan: ${formData.layanan}`;
 
   return (
     <section id="kontak" className="py-24 bg-slate-50 relative overflow-hidden">
+      {/* Decorative patterns */}
+      <div className="absolute top-0 right-0 w-64 h-64 bg-slate-50 rounded-full translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-slate-50 rounded-full -translate-x-1/3 translate-y-1/3" />
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="space-y-8"
+            className="space-y-10"
           >
-            <div className="space-y-6">
-              <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
-                Pesan Ambulance <span className="text-primary">Sekarang</span> Juga
+            <div>
+              <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 mb-6">
+                Butuh Ambulance <span className="text-primary">Segera</span>?
               </h2>
-              <p className="text-xl text-slate-600">
-                Isi formulir di samping untuk memesan layanan kami secara cepat. Tim kami akan segera merespon pesanan Anda melalui WhatsApp.
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Isi formulir di samping atau langsung hubungi tim kami untuk mendapatkan layanan transportasi medis terbaik. Tim Zahi'ah Ambulance siap membantu Anda 24 jam nonstop.
               </p>
             </div>
 
@@ -70,8 +74,7 @@ Jenis Layanan: ${formData.layanan}`;
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 mb-1">Telepon & WhatsApp</h4>
-                  <p className="text-slate-600">+62 812-3456-7890</p>
-                  <p className="text-slate-600">+62 811-2233-4455</p>
+                  <p className="text-slate-600">+62 822-6110-8591</p>
                 </div>
               </div>
 

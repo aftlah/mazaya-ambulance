@@ -7,7 +7,7 @@ const Armada = () => {
       name: "Ambulance Darurat & Transport",
       type: "Armada Medis Terpadu",
       features: ["Brankar Pasien", "Oksigen Medis", "Monitor Vital Sign", "Peralatan P3K Lengkap", "AC Double Blower"],
-      image: "/images/foto8.jpeg",
+      image: "/images/foto1.jpeg",
     }
   ];
 

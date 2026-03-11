@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-500 uppercase">Telepon 24 Jam</p>
-                  <p className="text-slate-300">+62 812-3456-7890</p>
+                  <p className="text-slate-300">+62 822-6110-8591</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} <span className="text-slate-300 font-bold">Mazaya Ambulance</span>. Hak Cipta Dilindungi Undang-Undang.
+            &copy; {new Date().getFullYear()} <span className="text-slate-300 font-bold">Zahi'ah Ambulance</span>. Hak Cipta Dilindungi Undang-Undang.
           </p>
           <div className="flex gap-8 text-sm text-slate-500">
             <a href="#" className="hover:text-primary transition-colors">Kebijakan Privasi</a>

@@ -6,13 +6,13 @@ const Testimoni = () => {
     {
       name: "Bapak Ahmad",
       role: "Keluarga Pasien",
-      review: "Sangat terbantu dengan layanan Mazaya Ambulance saat butuh pemindahan ayah ke rumah sakit di tengah malam. Responnya cepat sekali, timnya sangat sopan dan profesional.",
+      review: "Sangat terbantu dengan layanan Zahi'ah Ambulance saat butuh pemindahan ayah ke rumah sakit di tengah malam. Responnya cepat sekali, timnya sangat sopan dan profesional.",
       rating: 5,
     },
     {
       name: "Ibu Siti",
       role: "Pasien Kontrol Rutin",
-      review: "Sudah langganan antar jemput untuk kontrol ke RS. Mobilnya bersih, AC dingin, dan perawatnya sangat perhatian membantu saya naik turun mobil. Terima kasih Mazaya.",
+      review: "Sudah langganan antar jemput untuk kontrol ke RS. Mobilnya bersih, AC dingin, dan perawatnya sangat perhatian membantu saya naik turun mobil. Terima kasih Zahi'ah.",
       rating: 5,
     },
     {

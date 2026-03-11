@@ -105,7 +105,7 @@ const Hero = () => {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
                 src="/images/foto1.jpeg"
-                alt="Mazaya Ambulance Modern Fleet"
+                alt="Zahi'ah Ambulance Modern Fleet"
                 className="w-full h-auto object-cover"
               />
             </div>
