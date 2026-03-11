@@ -81,7 +81,9 @@ Jenis Layanan: ${formData.layanan}`;
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 mb-1">Lokasi Kami</h4>
-                  <p className="text-slate-600">Jl. Kesehatan No. 123, Jakarta Selatan, Indonesia</p>
+                  <a href="https://maps.app.goo.gl/wZbo75XjM5gCFxWm6?g_st=ic" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-primary transition-colors block mt-1">
+                    Lihat di Google Maps
+                  </a>
                 </div>
               </div>
             </div>

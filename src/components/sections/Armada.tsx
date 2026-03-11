@@ -4,23 +4,11 @@ import { motion } from "framer-motion";
 const Armada = () => {
   const fleet = [
     {
-      name: "Ambulance VIP",
-      type: "Toyota Alphard / Vellfire",
-      features: ["Peralatan ICU", "Monitor Pasien", "Ventilator", "AC Dingin", "Kapasitas 4 Penumpang"],
-      image: "https://images.unsplash.com/photo-1516503563231-1d54432967e8?auto=format&fit=crop&q=80&w=1000",
-    },
-    {
-      name: "Ambulance Emergency",
-      type: "Hyundai H1 / Toyota Hiace",
-      features: ["Defibrillator", "Oksigen Sentral", "Peralatan Bedah", "Monitor Vital Sign", "Respon Cepat"],
-      image: "https://images.unsplash.com/photo-1587745416684-47953f16f02f?auto=format&fit=crop&q=80&w=1000",
-    },
-    {
-      name: "Ambulance Transport",
-      type: "Suzuki APV / Daihatsu Luxio",
-      features: ["Brankar Pasien", "Oksigen Portable", "Peralatan P3K", "AC Double Blower", "Kapasitas 5 Penumpang"],
-      image: "https://images.unsplash.com/photo-1513222485735-c229f562911a?auto=format&fit=crop&q=80&w=1000",
-    },
+      name: "Ambulance Darurat & Transport",
+      type: "Armada Medis Terpadu",
+      features: ["Brankar Pasien", "Oksigen Medis", "Monitor Vital Sign", "Peralatan P3K Lengkap", "AC Double Blower"],
+      image: "/images/foto8.jpeg",
+    }
   ];
 
   return (
@@ -28,14 +16,14 @@ const Armada = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 mb-6">
-            Armada <span className="text-primary">Terbaik</span> Untuk Keselamatan Anda
+            Armada <span className="text-primary">Utama</span> Untuk Keselamatan Anda
           </h2>
           <p className="text-lg text-slate-600">
-            Kami menjaga setiap unit kendaraan dalam kondisi prima dengan perawatan rutin dan standar kebersihan medis yang ketat.
+            Kami menjaga armada dalam kondisi prima dengan perawatan rutin dan standar kebersihan medis yang ketat untuk kenyamanan Anda.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="max-w-lg mx-auto">
           {fleet.map((item, index) => (
             <motion.div
               key={index}

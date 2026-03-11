@@ -8,31 +8,31 @@ const Layanan = () => {
       icon: <Ambulance className="h-10 w-10" />,
       title: "Ambulance Darurat",
       description: "Penanganan cepat untuk situasi gawat darurat dengan peralatan medis lengkap dan tenaga medis siaga.",
-      image: "https://images.unsplash.com/photo-1516503563231-1d54432967e8?auto=format&fit=crop&q=80&w=800",
+      image: "/images/foto2.jpeg",
     },
     {
       icon: <Home className="h-10 w-10" />,
       title: "Antar Jemput Pasien",
       description: "Layanan transportasi pasien dari rumah ke rumah sakit atau sebaliknya untuk kontrol rutin.",
-      image: "https://images.unsplash.com/photo-1513222485735-c229f562911a?auto=format&fit=crop&q=80&w=800",
+      image: "/images/foto3.jpeg",
     },
     {
       icon: <Building2 className="h-10 w-10" />,
       title: "Transportasi Antar RS",
       description: "Rujukan atau pemindahan pasien antar fasilitas kesehatan dengan pengawasan medis intensif.",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
+      image: "/images/foto4.jpeg",
     },
     {
       icon: <UserMinus className="h-10 w-10" />,
       title: "Ambulance Jenazah",
       description: "Pelayanan pengantaran jenazah ke lokasi pemakaman atau luar kota dengan penuh rasa hormat.",
-      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800",
+      image: "/images/foto5.jpeg",
     },
     {
       icon: <CalendarCheck className="h-10 w-10" />,
       title: "Ambulance Standby Event",
       description: "Penyediaan armada ambulance standby untuk acara olahraga, konser, atau gathering perusahaan.",
-      image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=800",
+      image: "/images/foto6.jpeg",
     },
   ];
 

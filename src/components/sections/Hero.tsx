@@ -84,10 +84,10 @@ const Hero = () => {
                 <div className="text-3xl font-bold text-slate-900">24/7</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">Pelayanan Siaga</div>
               </div>
-              <div>
+              {/* <div>
                 <div className="text-3xl font-bold text-slate-900">15+</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">Armada Modern</div>
-              </div>
+              </div> */}
               <div>
                 <div className="text-3xl font-bold text-slate-900">100%</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">Respon Cepat</div>
@@ -104,7 +104,7 @@ const Hero = () => {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
-                src="https://images.unsplash.com/photo-1587745416684-47953f16f02f?auto=format&fit=crop&q=80&w=1200"
+                src="/images/foto1.jpeg"
                 alt="Mazaya Ambulance Modern Fleet"
                 className="w-full h-auto object-cover"
               />

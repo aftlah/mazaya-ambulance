@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook, Twitter, Ambulance } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook, Ambulance } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -22,14 +22,16 @@ const Footer = () => {
               Penyedia layanan ambulance profesional dengan standar medis tinggi. Kami siap melayani Anda 24/7 dengan respon cepat dan armada modern.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.instagram.com/zahiah_ambulance?igsh=MXg2ZDJjZWtrNnV5dg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.facebook.com/share/1BxsCQaJHZ/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://www.tiktok.com/@ambulancezahiahnael12?_r=1&_t=ZS-94XcB2qfVrt" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                </svg>
               </a>
             </div>
           </div>
@@ -80,7 +82,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-500 uppercase">Email</p>
-                  <p className="text-slate-300">info@mazaya-ambulance.com</p>
+                  <a href="mailto:Ambulancezahiaah@gmail.com" className="text-slate-300 hover:text-primary transition-colors">Ambulancezahiaah@gmail.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -89,7 +91,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-500 uppercase">Alamat Kantor</p>
-                  <p className="text-slate-300">Jl. Kesehatan No. 123, Jakarta Selatan, Indonesia</p>
+                  <a href="https://maps.app.goo.gl/wZbo75XjM5gCFxWm6?g_st=ic" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-primary transition-colors">Lihat di Google Maps</a>
                 </div>
               </li>
             </ul>
