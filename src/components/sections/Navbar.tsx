@@ -68,9 +68,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-2">
-            <div className="bg-primary p-1.5 rounded-lg">
-              <Phone className="h-6 w-6 text-white" />
-            </div>
+            <img src="/images/logo_zahiah.jpeg" alt="Zahi'ah Ambulance Logo" className="h-10 w-10 rounded-full object-cover border-2 border-primary" />
             <span className="text-xl font-bold tracking-tight text-slate-900">
               Zahi'ah <span className="text-primary">Ambulance</span>
             </span>

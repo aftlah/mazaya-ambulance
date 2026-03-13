@@ -10,10 +10,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <div className="flex items-center space-x-2">
-              <div className="bg-primary p-2 rounded-xl">
-                <Ambulance className="h-6 w-6 text-white" />
-              </div>
+            <div className="flex items-center space-x-3">
+              <img src="/images/logo_zahiah.jpeg" alt="Zahi'ah Ambulance Logo" className="h-14 w-14 rounded-full object-cover border-2 border-primary" />
               <span className="text-2xl font-bold tracking-tight">
                 Zahi'ah <span className="text-primary">Ambulance</span>
               </span>
@@ -73,7 +71,14 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-500 uppercase">Telepon 24 Jam</p>
-                  <p className="text-slate-300">+62 822-6110-8591</p>
+                  <a 
+                    href="https://wa.me/6282261108591" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-slate-300 hover:text-primary transition-colors"
+                  >
+                    +62 822-6110-8591
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-4">

@@ -74,7 +74,14 @@ Jenis Layanan: ${formData.layanan}`;
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 mb-1">Telepon & WhatsApp</h4>
-                  <p className="text-slate-600">+62 822-6110-8591</p>
+                  <a 
+                    href="https://wa.me/6282261108591" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-slate-600 hover:text-primary transition-colors block mt-1"
+                  >
+                    +62 822-6110-8591
+                  </a>
                 </div>
               </div>
 

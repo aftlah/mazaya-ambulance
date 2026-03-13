@@ -72,6 +72,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
+                onClick={() => window.open(`https://wa.me/6282261108591?text=${encodeURIComponent("Halo Zahi'ah Ambulance, saya ingin memesan layanan ambulance. Mohon informasinya.")}`, "_blank")}
                 className="border-2 border-slate-200 hover:border-primary hover:text-primary font-bold rounded-full px-8 py-7 text-lg bg-white shadow-sm"
               >
                 <MessageCircle className="mr-2 h-5 w-5 text-[#25D366]" />
