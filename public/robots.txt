@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zahiah.site/sitemap.xml
